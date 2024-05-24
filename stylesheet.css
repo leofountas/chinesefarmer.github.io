@@ -1,0 +1,153 @@
+p {
+    font-family: serif;
+    font-size: 15px;
+    color: rgb(51, 46, 46);
+    line-height: 25px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+  .name-autor {
+    color: rgb(51, 46, 46s);
+    
+  }
+
+  a {
+    text-decoration: none;
+    cursor: alias;
+    color: hsl(207, 44%, 49%);
+    font-style:oblique;
+  }
+
+  a:visited {
+    color: hsl(271, 76%, 53%);
+  }
+
+  a:hover, a:focus {
+    color: hsl(192, 44%, 49%);
+    background-color: yellow  ;
+  }
+
+  a:active {
+    color: hsl(0, 100%, 50%);
+  }
+
+  section {
+    max-width: 90%;
+    margin:auto ;
+  }
+
+  blockquote {
+    margin:80px;
+    border-left: 3px solid firebrick;
+    background-color: hsla(0, 0%, 76%, 0.836);
+    text-align: center;
+    width: 800px;
+    font-size: 130%;
+    padding: 30px;
+  }
+
+  footer {
+    margin-left: 800px;
+    padding-left: 510px;
+  }
+
+  body{
+    /*background-image: url("https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png");*/
+    background: radial-gradient(circle, #c0c0c0, #ffffff);
+  }
+
+  .quotes {
+    font-style: italic;
+    
+  }
+
+  #good {
+    text-transform: uppercase;
+    color: green;
+  }
+
+  #bad {
+    text-transform: uppercase;
+    color:red;
+  }
+
+  .trgray {
+    background-color: gray;
+  }
+
+  ul {
+    font-size: 20px;
+    padding-right: 40px;
+  }
+
+#p-ul {
+  font-size: 20px;
+}
+
+  #ligood {
+    padding:15px;
+    background-image: url('../bien.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 40px;
+  }
+
+  #lievil {
+    padding: 15px;
+    background-image: url('../mal.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  #licat {
+    padding: 15px;
+    background-image: url('../chat.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  li {
+    padding: 15px;
+  }
+
+  .farmer {
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .space {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .internet {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row-reverse;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  header > p {
+    text-align: center;
+  }
+
+  header > h2 {
+    text-align: center;
+  }
+
+  #conlusion {
+    font-size: 20px;
+  }
