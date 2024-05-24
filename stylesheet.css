@@ -89,7 +89,7 @@ table, th, td {
 
   #ligood {
     padding:15px;
-    background-image: url('../bien.png');
+    background-image: url('bien.png');
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: right;
@@ -98,7 +98,7 @@ table, th, td {
 
   #lievil {
     padding: 15px;
-    background-image: url('../mal.png');
+    background-image: url('mal.png');
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: right;
@@ -106,7 +106,7 @@ table, th, td {
 
   #licat {
     padding: 15px;
-    background-image: url('../chat.png');
+    background-image: url('chat.png');
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: right;
